@@ -1,0 +1,7 @@
+C:\Users\UCA40432\Downloads\Practica GITHUB\Practica_GIT\Practica_GIT\bin\Debug\Practica_GIT.exe.config
+C:\Users\UCA40432\Downloads\Practica GITHUB\Practica_GIT\Practica_GIT\bin\Debug\Practica_GIT.exe
+C:\Users\UCA40432\Downloads\Practica GITHUB\Practica_GIT\Practica_GIT\bin\Debug\Practica_GIT.pdb
+C:\Users\UCA40432\Downloads\Practica GITHUB\Practica_GIT\Practica_GIT\obj\Debug\Practica_GIT.csproj.AssemblyReference.cache
+C:\Users\UCA40432\Downloads\Practica GITHUB\Practica_GIT\Practica_GIT\obj\Debug\Practica_GIT.csproj.CoreCompileInputs.cache
+C:\Users\UCA40432\Downloads\Practica GITHUB\Practica_GIT\Practica_GIT\obj\Debug\Practica_GIT.exe
+C:\Users\UCA40432\Downloads\Practica GITHUB\Practica_GIT\Practica_GIT\obj\Debug\Practica_GIT.pdb

@@ -2,6 +2,8 @@
 
 class Program
 {
+    private static object iniciales;
+
     static void Main()
     {
         string codigo = "";
@@ -22,7 +24,8 @@ class Program
             Console.WriteLine("4. Mostrar el primer y último carácter del código.");
             Console.WriteLine("5. Imprimir la carrera carácter por carácter.");
             Console.WriteLine("6. Crear una nueva etiqueta de bienvenida.");
-            Console.WriteLine("7. Salir del menú.");
+            Console.WriteLine("7. Generar correo");
+            Console.WriteLine("8. Salir del menú.");
             Console.WriteLine("***************************************************");
 
             Console.Write("Ingrese una opción: ");
@@ -89,6 +92,21 @@ class Program
                     break;
 
                 case 7:
+                    Console.WriteLine("Ingrese nombres y apellidos: ");
+                    string alumno = Console.ReadLine();
+                    string[] partes = alumno.Split(' ');
+
+                    string primerNombre = partes[0];
+                    string iniciales = "";
+                    for (int i = 0;  1 < partes.Length; i++)
+                    {
+                        iniciales += partes[i].Substring(0, 1);
+                    }
+                    Console.WriteLine("Correo UPN GENERADO!!!");
+                    Console.WriteLine($"{primerNombre}{iniciales} @upn.pe");
+                    break;
+
+                case 8:
                     Console.WriteLine("Saliendo del programa...");
                     break;
 
